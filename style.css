@@ -1,0 +1,275 @@
+*{
+	margin 0;
+	padding: 0;
+}
+body{
+	background: url(http://www.templatewire.com/preview/touche/img/intro-bg.jpg);
+}
+header{
+	display: flex;
+	justify-content: space
+}
+nav{
+	list-style-type: none;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+}
+nav li{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 20px 0px 20px;
+}
+header span{
+	color: rgb(100, 252, 40);
+	font-family:'Dancing Script';
+	font-size: 34px;
+	position: fixed;
+}
+hr{
+	border: 0;
+	background: #8eb640;
+	width: 10%;
+	height: 2px;
+	margin: 0px 0px 10px 0px;
+}
+.naslov{
+	color: #fff;
+	font-family:'Dancing Script';
+	font-size: 120px;
+	margin-bottom: -0.5%;
+}
+.podnaslov{
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 26px;
+}
+.dugme{
+	margin-top: 3%;
+	padding:12px;
+	background-color: #8eb640;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+}
+.cont1{
+	margin-top: 15%;
+ text-align: center;
+}
+.cont2text{
+	display: flex;
+	flex-direction: column;
+	margin: 0 5% 0 5%;
+}
+#cont2{
+	margin-top: 25%;
+	background-color:#fff;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Open Sans';
+	padding: 5%;
+}
+.cont2 div img{
+	width: 500px;
+	height: 300px;
+	margin: 5% 5% 5% 0;
+	outline: 1px solid white;
+ 	outline-offset: -8px;
+}
+#cont3{
+	text-align: center;
+	background: url(http://www.etrafika.net/slike/2015/08/pica-hrana.jpeg);
+	filter: brightness(76%);
+	padding: 7%;
+	color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.menu{
+	display: inline;
+	color: #fff;
+	border-bottom: solid;
+	border-bottom-width: 4px;
+	border-color: #8eb640;
+	font-family: 'Open Sans';
+	font-size: 30px;
+}
+.cont3text{
+	margin-top: 3%;
+	font-size: 22px;
+	font-family: 'Open Sans';
+}
+.cont4{
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	padding: 4%;
+	padding-bottom: 3%;
+}
+.naslovmenu{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.jelo{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: dotted;
+	font-family: 'Open Sans', sans-serif;
+}
+.opis{
+	font-family: 'Open Sans',sans-serif;
+	margin-top: -1%;
+}
+.cont4text{
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	justify-content: center;
+}
+#cont5{
+	text-align: center;
+	background: url(https://www.thedoldergrand.com/app/uploads/2015/10/03_TheRestaurant_Header-1400x1050.jpg);
+	filter: brightness(76%);
+	padding: 7%;
+	color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.cont6{
+	background-color: #fff;
+	text-align: center;
+}
+.cont6 button{
+	padding: 1%  2% 1% 2%;
+	border: none;
+	margin: 5% 1% 5% 1%;
+	font-family: 'Open Sans',sans-serif;
+}
+.picture{
+	width: 350px;
+	height: 250px;
+	margin: 2% 2% 2% 2%;
+	outline: 1px solid white;
+  	outline-offset: -8px;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 3%;
+	justify-content: space-between;
+	padding-bottom: 5%;
+}
+#cont7{
+	background: url(http://www.templatewire.com/preview/touche/);
+	background-attachment: fixed;
+	filter: brightness(76%);
+}
+.cont7text{
+	font-family:'Open Sans',sans-serif;
+	text-align: center;
+	color: #fff;
+}
+.cont7text h1{
+	display: inline;
+	border-bottom: 3px solid;
+	border-color: #fff;
+
+}
+.image{
+	width: 250px;
+	height: 400px;
+	outline: 1px solid white;
+	outline-offset: -7px;
+}
+.cont7chefs{
+	font-family:'Open Sans',sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	margin: 5%;
+}
+.cont7row{
+	display: flex;
+	flex-direction: row;
+}
+#cont8{
+	background-color: #8eb640;
+	color: #fff;
+	text-align: center;
+    padding: 3%;
+	font-family:'Open Sans',sans-serif;
+	font-size: 26px;
+}
+.cont9{
+	background-color: #fff;
+}
+.cont9 h1{
+	border-bottom: 3px solid;
+	border-color: #8eb640;
+	display: inline;
+}
+.cont9text{
+	text-align: center;
+	font-family:'Open Sans',sans-serif;
+	padding: 3%;
+}
+.form1{
+	width: 30%;
+	height:30px;
+	margin: 2%;
+	font-family:'Open Sans',sans-serif;
+}
+.form2{
+	width: 64.5%;
+	height: 70px;
+	margin-bottom: 4%;
+	font-family:'Open Sans',sans-serif;
+}
+form{
+	text-align: center;
+}
+.posalji{
+	border: none;
+	background: #8eb640;
+	color: #fff;
+	padding: 12px;
+	font-family:'Open Sans',sans-serif;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+.cont10{
+	background-color: #1e1d1c;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	padding: 1%;
+}
+.cont10 h3{
+	color: #8eb640;
+}
+.cont10text{
+	text-align: center;
+	margin: 2% 9% 2% 9%;
+}
+.cont11{
+	background: #8eb640;
+	color: #fff;
+	text-align: center;
+	padding: 3% 3% 3% 3%;
+}
+.slikaa{
+	width: 64px;
+	height: 64px;
+	margin:  0% 2%;
+}
+.cont10text{
+	text-align: center;
+}
